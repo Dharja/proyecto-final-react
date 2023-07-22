@@ -1,13 +1,12 @@
-import React from 'react';
+    import React from 'react';
 
-const CartWidget = () => {
-// Lógica del carrito
+    const CartWidget = ({ itemCount }) => {
     return (
         <div>
-        {/* Cart icon */}
-        {/* Cart item count */}
+        <img src={cartIcon} alt="Cart" />
+        <span>{itemCount}</span>
         </div>
     );
-};
+    };
 
 export default CartWidget;
