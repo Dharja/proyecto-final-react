@@ -1,0 +1,42 @@
+.video-container iframe {
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.texto-centrado {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+    flex: 1;
+}
+
+.nosotros strong {
+    font-size: 30px;
+    color: darkblue;
+}
+
+.nosotros {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.video-container {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.CartItem {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: grey;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.CartItem h4 {
+    margin: 0;
+    color: darkblue;
+    font-size: 1.2em;
+}
+
+.CartItem p {
+    margin: 0;
+}
+
+.CartItem p:nth-child(odd) {
+    font-weight: bold;
+}
+
+.CartItem p:nth-child(even) {
+    text-align: right;
+}
+
+.Miniatura {
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+}

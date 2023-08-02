@@ -1,0 +1,31 @@
+.cart-widget img {
+  width: 20px;
+  height: 20px;
+  padding-right: 15px;
+  margin-right: 5px;
+}
+
+
+.cart-widget {
+  background-color: lightgreen;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 0 2px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+
+
+.cart-widget:hover {
+  background-color: lightseagreen;
+  cursor: pointer;
+}
+
+
+.cart-widget-count {
+  margin-left: 0.1px; 
+}

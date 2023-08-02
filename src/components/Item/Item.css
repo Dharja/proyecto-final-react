@@ -1,0 +1,157 @@
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.font-xl {
+    font-size: 20 px;
+}
+
+.item-card {
+    color: black;
+    text-align: center;
+    position: relative;
+    margin: 10px 15px;
+    padding-bottom: 25px;
+    width: 320px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.22);
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.20s ease-in;
+    cursor: pointer;
+}
+
+.item-card_header {
+    background-color: rgb(233, 233, 233);
+    font-size: large;
+    padding-bottom: 12px;
+}
+
+.item-card_header h2 {
+    padding: 16px 2px 0px;
+    margin: 0px;
+}
+
+.item-card_header small {
+    font-size: 12px;
+}
+
+.item-card_img {
+
+    width: 50vh;
+    height: 30vh;
+}
+
+.item-card_img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.item-card:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
+}
+
+.item-card_detail {
+    padding: 12px 8px;
+}
+
+.item-card_price-tag {
+    font-size: 28px;
+    color: rgb(75, 75, 75);
+    font-weight: 900;
+    margin: 5px auto 15px;
+}
+
+.item-card:hover .item-card_favicon {
+    display: block;
+}
+
+.item-card_favicon {
+    display: none;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    border: none;
+    margin: 5px 15px;
+    padding: 8px 8px;
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+    color: #8c8c8e;
+}
+
+.item-card_favicon.favorite {
+    display: block;
+    background-color: rgb(223, 117, 84);
+    color: white;
+}
+
+small {
+    color: #8c8c8e;
+}
+
+.Nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    color: darkgreen;
+    line-height: 0.3;
+}
+
+.Pais {
+    font-size: 1.10rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 0.3;
+}
+
+.PrecioPasaje {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    color: #081568;
+}
+
+.Detalle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Option {
+    font-size: 0.85rem;
+    font-weight: normal;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.Option:hover {
+    background-color: darkred;
+    font-size: bold;
+    color: yellow;
+    size: 80px;
+    font-weight: bold;
+}
+
+.FichaCiudad {
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: wheat;
+
+}

@@ -1,0 +1,21 @@
+.ListaCiudades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ListaCiudades h1:first-child {
+    font-size: 24px;
+    
+
+}
+
+.ListaCiudades h1:last-child {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

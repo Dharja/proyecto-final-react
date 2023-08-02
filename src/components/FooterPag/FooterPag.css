@@ -1,0 +1,43 @@
+footer {
+    background-color: #077a3b;
+    color: whitesmoke;
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.social-links a:hover {
+    color: #00aced;
+}
+
+img:hover {
+    background-color: yellow;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
