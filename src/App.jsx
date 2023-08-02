@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import './App.css'
 
@@ -9,7 +10,7 @@ import NavBar from './components/NavBar';
 import CartWidget from './components/CartWidget';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
-import Cart from './Cart';
+import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 
 const firebaseConfig = {
