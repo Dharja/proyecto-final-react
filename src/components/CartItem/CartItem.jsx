@@ -40,5 +40,7 @@ const CartItem = ({ id, nombre, pais, imagen, precioPasaje, quantity, moneda, id
       <p><span style={{ color: 'yellow', fontWeight: 'bold' }}>Subtotal:</span> <span style={{ color: 'white', fontWeight: 'normal'}}>{subtotal.toLocaleString('es-AR', { style: 'currency', currency: 'ARS', maximumFractionDigits: 0 })}</span></p>
     </div>
   );
-}
+};
+
+
 export default CartItem;

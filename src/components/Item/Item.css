@@ -51,7 +51,7 @@ a {
 }
 
 .item-card:hover {
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 15px rgba(18, 11, 37, 0.16);
     transform: translateY(-6px);
 }
 
@@ -61,7 +61,7 @@ a {
 
 .item-card_price-tag {
     font-size: 28px;
-    color: rgb(75, 75, 75);
+    color: rgb(75, 66, 90);
     font-weight: 900;
     margin: 5px auto 15px;
 }
@@ -88,7 +88,7 @@ a {
 
 .item-card_favicon.favorite {
     display: block;
-    background-color: rgb(223, 117, 84);
+    background-color: rgb(123, 106, 190);
     color: white;
 }
 
@@ -101,7 +101,7 @@ small {
     font-weight: bold;
     text-align: center;
     margin-bottom: 5px;
-    color: darkgreen;
+    color: rgb(43, 0, 100);
     line-height: 0.3;
 }
 
@@ -117,7 +117,7 @@ small {
     font-size: 1.1rem;
     font-weight: bold;
     margin: 0;
-    color: #081568;
+    color: #160868;
 }
 
 .Detalle {
@@ -133,16 +133,16 @@ small {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: darkolivegreen;
+    background-color: rgb(62, 50, 81);
     color: #ffffff;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 }
 
 .Option:hover {
-    background-color: darkred;
+    background-color: rgb(86, 0, 139);
     font-size: bold;
-    color: yellow;
+    color: rgb(114, 131, 199);
     size: 80px;
     font-weight: bold;
 }

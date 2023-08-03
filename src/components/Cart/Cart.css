@@ -2,12 +2,12 @@
     display: block;
     margin-bottom: 10px;
     
-}
+};
 
 .EliminarButton {
-    background-color: red;
+    background-color: rgb(48, 39, 82);
     color: white;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-}
+};

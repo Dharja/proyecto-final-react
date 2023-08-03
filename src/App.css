@@ -1,5 +1,5 @@
-#root {
-  max-width: 1280px;
+ #root {
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+.foto img {
+  width: 250px;
+  height: 150px;
+  border-radius: 20px; 
+  }
+
+
+.colorletra{
+  color: green;
+  text-decoration:overline;
+}
+
+
+body {
+  background-color: lightgoldenrodyellow; 
+  }
+
+  .color-error{
+    color: red;
+  }

@@ -6,14 +6,14 @@
     gap: 10px;
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: grey;
+    background-color: rgb(162, 149, 180);
     margin-bottom: 10px;
     text-align: center;
 }
 
 .CartItem h4 {
     margin: 0;
-    color: darkblue;
+    color: rgb(24, 12, 93);
     font-size: 1.2em;
 }
 

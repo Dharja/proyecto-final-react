@@ -19,30 +19,20 @@
 }
 
 .NameCity {
-    color: darkblue;
+    color: rgb(18, 18, 90);
 }
 
 .NameCountry{
-    color: darkgreen;
+    color: rgb(55, 0, 100);
 }
 
 .Currency{
-    color: darkblue;
+    color: rgb(52, 52, 75);
 }
 
 .InterestPlaces{
-    color: darkgreen;
+    color: rgb(60, 2, 104);
 }
-
-
-/* .CityImg {
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    border-radius: 15px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-} */
 
 
 .CityImgWrapper {
@@ -68,7 +58,7 @@
     font-size: 1.1rem;
     font-weight: bold;
     margin: 0;
-    color: darkred;
+    color: rgb(115, 71, 130);
 }
 
 /*----------------------------------------*/

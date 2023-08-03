@@ -37,7 +37,7 @@ export default function Nosotros() {
                     <br />
                     Nos encanta viajar tanto como tú y nos apasiona compartir nuestra experiencia y conocimiento contigo. Estamos comprometidos a brindarte un servicio profesional y amigable para asegurarnos de que cada viaje sea único y memorable.
                     <br />
-                    Confía en nosotros para hacer realidad tus sueños de viaje. ¡Nos encantaría ser tu compañero de viaje y ayudarte a explorar los destinos más asombrosos del mundo
+                    Confía en nosotros para hacer realidad tus sueños de viaje. ¡Nos encantaría ser tu compañero de viaje y ayudarte a explorar los destinos más asombrosos del mundo.
                 </p>
             </div>
         </div>

@@ -1,0 +1,7 @@
+.empty-cart-message {
+    color: rgb(140, 0, 255);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}

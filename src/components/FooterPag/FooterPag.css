@@ -1,5 +1,5 @@
 footer {
-    background-color: #077a3b;
+    background-color: #241362;
     color: whitesmoke;
     padding: 2rem;
     text-align: center;
@@ -26,11 +26,11 @@ footer {
 }
 
 .social-links a:hover {
-    color: #00aced;
+    color: #2f1f71;
 }
 
 img:hover {
-    background-color: yellow;
+    background-color: rgb(214, 192, 241);
 }
 
 
@@ -40,4 +40,4 @@ img:hover {
         justify-content: space-between;
     }
 
-}
+};

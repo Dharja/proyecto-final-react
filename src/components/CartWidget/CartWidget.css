@@ -7,7 +7,7 @@
 
 
 .cart-widget {
-  background-color: lightgreen;
+  background-color: rgb(163, 144, 238);
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 0 2px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@
 
 
 .cart-widget:hover {
-  background-color: lightseagreen;
+  background-color: rgb(81, 89, 174);
   cursor: pointer;
 }
 
