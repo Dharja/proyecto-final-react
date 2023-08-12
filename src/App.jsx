@@ -6,7 +6,7 @@ import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import FooterPag from "./components/FooterPag/FooterPag";
 import Nosotros from "./components/Nosotros/Nosotros";
-import Cart from "./components/Cart/Cart"; 
+import Cart from "./components/Cart/Cart";
 import { CartProvider } from "./context/CartContext";
 import CheckoutForm from "./components/CheckoutForm/CheckoutForm";
 import OrderConfirm from "./components/OrderConfirm/OrderConfirm";
